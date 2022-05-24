@@ -1,17 +1,18 @@
-### dist 已经打包好的react源码
+1.dist 已经打包好的react源码
 
-### 源文件react-17.0.2 调试参考
+2.react-17.0.2源文件 调试参考
 
-### npm i
+3.npm i
 
-### cd ./dist/react -> npm link
+4.cd ./dist/react -> npm link
 
-### cd ./dist/react-dom -> npm link
+5.cd ./dist/react-dom -> npm link
 
-### cd ./dist/scheduler -> npm link
+6.cd ./dist/scheduler -> npm link
 
-### npm link react react-dom scheduler
+7.npm link react react-dom scheduler
 
-### scc start
+8. scc start
 
+看到 =============源码调试 说明已经成功了
 

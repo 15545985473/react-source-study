@@ -1,5 +1,5 @@
 import React from 'react';
-import Extend from './Extend';
+import Child from './Child';
 
 class App extends React.Component {
   state = {
@@ -15,8 +15,10 @@ class App extends React.Component {
     return (
       <div>
         <p>Hello React</p>
-        <h1>{this.state.count}</h1>
-        <button onClick={() => this.onClick()}>Add</button>
+        <Child>
+          <p>child</p>
+          {() => <p>child1</p>}
+        </Child>
       </div>
     );
   }
